@@ -52,15 +52,6 @@ module.exports = function(grunt) {
      * Concatenate cf-* Less files prior to compiling them.
      */
     concat: {
-      'cf-less': {
-        src: [
-          '<%= loc.src %>/vendor/cf-*/*.less',
-          '!<%= loc.src %>/vendor/cf-core/*.less',
-          '<%= loc.src %>/vendor/cf-core/cf-core.less',
-          '<%= loc.src %>!vendor/cf-concat/cf.less'
-        ],
-        dest: '<%= loc.src %>/vendor/cf-concat/cf.less'
-      },
       js: {
         src: [
           '<%= loc.src %>/vendor/jquery/jquery.js',
@@ -90,7 +81,13 @@ module.exports = function(grunt) {
         options: {
           // The src/vendor paths are needed to find the CF components' files.
           // Feel free to add additional paths to the array passed to `concat`.
-          paths: grunt.file.expand('src/vendor/*').concat([])
+          paths: grunt.file.expand('src/vendor/*').concat([]),
+          compress: true,
+          sourceMap: true,
+          // Where the sourcemap file is generated and located.
+          sourceMapFilename: '<%= loc.dist %>/static/css/main.css.map', 
+          // // The complete URL and sourcemap filename put in the compiled CSS file.
+          sourceMapURL: 'main.css.map'
         },
         files: {
           '<%= loc.dist %>/static/css/main.css': ['<%= loc.src %>/static/css/main.less']
@@ -360,7 +357,7 @@ module.exports = function(grunt) {
   /**
    * Create custom task aliases and combinations.
    */
-  grunt.registerTask('compile-cf', ['bower:cf', 'concat:cf-less', 'concat:topdocIcons']);
+  grunt.registerTask('compile-cf', ['bower:cf', 'concat:topdocIcons']);
   grunt.registerTask('css', ['less', 'autoprefixer', 'legacssy', 'cssmin', 'usebanner:css', 'copy']);
   grunt.registerTask('js', ['concat:js', 'uglify', 'usebanner:js', 'copy']);
   grunt.registerTask('test', ['jshint']);
