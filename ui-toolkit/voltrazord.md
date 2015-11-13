@@ -28,5 +28,5 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 </div>
 
 
-{% render src/vendor/cf-buttons/usage.html %}
+{% render src/vendor/cf-buttons/usage.md %}
 
