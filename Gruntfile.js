@@ -252,6 +252,15 @@ module.exports = function(grunt) {
               'vendor/box-sizing-polyfill/boxsizing.htc'
             ],
             dest: '<%= loc.dist %>/static'
+          },
+          {
+            expand: true,
+            cwd: '<%= loc.src %>',
+            src: [
+              // Capital Framework Usage files
+              'vendor/**/usage.md'
+            ],
+            dest: '<%= loc.dist %>/_includes/'
           }
         ]
       }

@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Voltrazord
+title:  Voltrazord w grunt task
 category: UI toolkit
 ---
 
@@ -27,6 +27,7 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
   </ul>
 </div>
 
+{% include vendor/cf-expandables/usage.md %}
 
-{% render src/vendor/cf-buttons/usage.md %}
+{% include vendor/cf-buttons/usage.md %}
 
