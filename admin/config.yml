@@ -1,8 +1,10 @@
 backend:
   name: github
   repo: cfarm/design-manual
-  branch: master
+  branch: gh-pages
   site_domain: cfarm.github.io
+
+publish_mode: editorial_workflow
 
 media_folder: "images/uploads"
 
