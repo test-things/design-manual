@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: design-manual/cfarm.github.io
+  repo: cfarm/design-manual
   branch: master
   site_domain: peaceful-euclid-5b6622.netlify.com
 
