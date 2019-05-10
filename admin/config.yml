@@ -2,7 +2,7 @@ backend:
   name: github
   repo: cfarm/design-manual
   branch: master
-  site_domain: peaceful-euclid-5b6622.netlify.com
+  site_domain: cfarm.github.io
 
 media_folder: "images/uploads"
 
