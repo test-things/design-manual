@@ -22,6 +22,9 @@ layout: default
 
         <p class="lead-in">{{ page.description }}</p>
         
+        <h3>Example</h3>
+        {{ page.html-snippet | xml_escape | markdownify }}
+
         <h3>HTML code</h3>
         <pre><code>{{ page.html-snippet | xml_escape | markdownify }}</code></pre>
         
