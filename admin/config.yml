@@ -27,8 +27,8 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Component name", name: "component-name", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Implementation status", name: "implementation-status", widget: "select", options: [ { label: "Proposed", value: "proposed" }, { label: "In progress", value: "in-progress" }, {label: "Beta", value: "beta" } ] }
-      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Implementation status", name: "implementation-status", widget: "select", options: [ { label: "Proposed", value: "proposed" }, { label: "In progress", value: "in-progress" }, {label: "Beta", value: "beta" }, {label: "Released", value: "released" } ] }
+      - {label: "Description", name: "description", widget: "markdown"}
       - {label: "HTML snippet", name: "html-snippet", widget: "string"}
       - {label: "Jinja2 snippet", name: "jinja2-snippet", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
