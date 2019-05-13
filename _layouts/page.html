@@ -13,10 +13,9 @@ layout: default
                  <span class="a-date">{{ page.date | date_to_string }}</span>
             </div>
             <div class="m-meta-header_left">
-                <span class="u-visually-hidden">Status: </span>
                 <a href="#" class="a-heading a-heading__icon">
                     {% include icons/pencil.svg %}
-                    {{ page.implementation-status }}
+                    Status: {{ page.implementation-status }}
                 </a>
             </div>
         </header>
