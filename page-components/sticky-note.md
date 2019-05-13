@@ -5,7 +5,10 @@ implementation-status: proposed
 description: >-
   You can write on it. You can stick it to a wall (or table, if you're feeling
   wacky). What's not to love?
-html-snippet: <div class="sticky">Sticky note y'all</div>
+html-snippet: >-
+  <div class="m-notification             m-notification__visible            
+  m-notification__warning">   <div class="m-notification_content">         <div
+  class="h4 m-notification_message">Sticky note y'all</div>     </div> </div>
 jinja2-snippet: '<div class="sticky">{{ sticky.content }}</div>'
 ---
 More about stickies:
