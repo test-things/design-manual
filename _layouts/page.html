@@ -27,9 +27,9 @@ layout: default
 
         <p class="lead-in">{{ page.description }}</p>
         
-        <pre><code>{{ page.html-snippet }}</code></pre>
+        <pre><code>{{ page.html-snippet | xml_escape | markdownify }}</code></pre>
         
-        <pre><code>{{ page.jinja2-snippet }}</code></pre>
+        <pre><code>{{ page.jinja2-snippet | xml_escape | markdownify }}</code></pre>
 
         {{ content }}
       </main>
