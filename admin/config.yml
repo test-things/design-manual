@@ -19,7 +19,8 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "page-components" # Used in routes, e.g., /admin/collections/blog
+  - name: "page-component" # Used in routes, e.g., /admin/collections/blog
+    identifier-field: "page-component"
     label: "Page components" # Used in the UI
     folder: "page-components/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
