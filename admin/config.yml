@@ -23,10 +23,10 @@ collections:
               name: "secondarynav",
               widget: "list",
               fields:
-                - {label: text, name: text, widget: string}
-                - {label: Relative URL, name: url, widget: string}
-                - {label: Internal link?, name:internal, widget: boolean, default: true}
-                - {label: Category, name: category, widget: select, options: ["Best practices", "Brand guidelines", "Global elements", "Page components", "Data visualization"]}
+                - {label: "Text", name: "text", widget: "string"}
+                - {label: "Relative URL", name: "url", widget: "string"}
+                - {label: "Internal link?", name: "internal", widget: "boolean", default: true}
+                - {label: "Category", name: "category", widget: "select", options: ["Best practices", "Brand guidelines", "Global elements", "Page components", "Data visualization"]}
             }
   - name: "page-component" # Used in routes, e.g., /admin/collections/blog
     label: "Page components" # Used in the UI
