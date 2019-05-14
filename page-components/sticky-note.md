@@ -10,6 +10,26 @@ html-snippet: >-
   m-notification__warning">   <div class="m-notification_content">         <div
   class="h4 m-notification_message">Sticky note y'all</div>     </div> </div>
 jinja2-snippet: '<div class="sticky">{{ sticky.content }}</div>'
+section:
+  - section-content: >-
+      When to use
+
+
+      \    When there is a specific action users may want or need to take that
+      requires contacting a specific office within the Bureau.
+
+
+      \    Default placement should be in the sidebar, use main content area
+      when contact information is of extra significance or directly ties into
+      the main objective of the page.
+
+
+      When something else is better
+
+
+      \    When no contact information is needed or no specific action is tied
+      to the contact information.
+    section-heading: Use case
 ---
 More about stickies:
 
