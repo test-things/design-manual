@@ -9,16 +9,25 @@ publish_mode: editorial_workflow
 media_folder: "images/uploads"
 
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "_posts/" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "config"
+    label: "Config"
+    editor:
+      preview: true
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "_config.yml"
+        fields:
+          - {
+              label: "Secondary Navigation",
+              name: "secondarynav",
+              widget: "list",
+              fields:
+                - {label: text, name: text, widget: string}
+                - {label: Relative URL, name: url, widget: string}
+                - {label: Internal link?, name:internal, widget: boolean, default: true}
+                - {label: Category, name: category, widget: select, options: ["Best practices", "Brand guidelines", "Global elements", "Page components", "Data visualization"]}
+            }
   - name: "page-component" # Used in routes, e.g., /admin/collections/blog
     label: "Page components" # Used in the UI
     label_singular: "Page component"
