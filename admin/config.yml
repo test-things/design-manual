@@ -21,6 +21,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "page-component" # Used in routes, e.g., /admin/collections/blog
     label: "Page components" # Used in the UI
+    label_singular: "Page component"
     folder: "page-components/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -31,4 +32,12 @@ collections:
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "HTML snippet", name: "html-snippet", widget: "string"}
       - {label: "Jinja2 snippet", name: "jinja2-snippet", widget: "string"}
+      - label: "Section"
+        name: "section"
+        widget: "list"
+        fields:
+          - {label: 'Section heading', name: section-heading, widget: string, default: "Section heading text goes here"}
+          - label: 'Section content'
+            name: section-content
+            widget: markdown
       - {label: "Body", name: "body", widget: "markdown"}
