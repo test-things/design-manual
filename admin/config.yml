@@ -55,9 +55,10 @@ collections:
       - label: "Section"
         name: "section"
         widget: "list"
+        required: false
         fields:
           - {label: 'Section heading', name: section-heading, widget: string, default: "Section heading text goes here"}
           - label: 'Section content'
             name: section-content
             widget: markdown
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
