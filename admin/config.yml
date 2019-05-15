@@ -15,12 +15,16 @@ collections:
       preview: true
     files:
       - label: "Primary navigation"
-        name: "mainnav"
+        name: "navigation-primary"
         file: "navigation-primary.yml"
         fields:
-          - {label: "Text", name: "text", widget: "string"}
-          - {label: "URL", name: "url", widget: "string"}
-          - {label: "Internal link?", name: "internal", widget: "boolean"}
+          - label: "Primary navigation links"
+            name: "mainnav"
+            widget: "list"
+            fields:
+              - {label: "Text", name: "text", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
+              - {label: "Internal link?", name: "internal", widget: "boolean"}          
           # - {
           #     label: "Secondary Navigation",
           #     name: "secondarynav",
