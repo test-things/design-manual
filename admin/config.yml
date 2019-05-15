@@ -16,7 +16,7 @@ collections:
     files:
       - label: "Primary navigation"
         name: "navigation-primary"
-        file: "navigation-primary.yml"
+        file: "_data/navigation-primary.yml"
         fields:
           - label: "Primary navigation links"
             name: "mainnav"
