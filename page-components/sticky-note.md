@@ -1,5 +1,7 @@
 ---
+layout: page
 title: Sticky note
+category: Page components
 date: 2019-05-13T16:48:08.177Z
 implementation-status: proposed
 description: >-
