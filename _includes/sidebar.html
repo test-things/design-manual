@@ -3,7 +3,7 @@
     <nav role="navigation">
       <div class="secondary-nav">
         <ul>
-          {% for link in site.secondarynav %}
+          {% for link in site.data.navigation-secondary.secondarynav %}
             {% if link.category == page.category %}
               {% if link.internal == true %}
                 <li{% if link.text == page.title %} class="secondary-nav-active"{% endif %}>

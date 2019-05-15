@@ -9,8 +9,8 @@ publish_mode: editorial_workflow
 media_folder: "images/uploads"
 
 collections:
-  - name: "config"
-    label: "Config"
+  - name: "navigation"
+    label: "Navigation"
     editor:
       preview: true
     files:
@@ -24,17 +24,18 @@ collections:
             fields:
               - {label: "Text", name: "text", widget: "string"}
               - {label: "URL", name: "url", widget: "string"}
-              - {label: "Internal link?", name: "internal", widget: "boolean"}          
-          # - {
-          #     label: "Secondary Navigation",
-          #     name: "secondarynav",
-          #     widget: "list",
-          #     fields:
-          #       - {label: "Text", name: "text", widget: "string"}
-          #       - {label: "Relative URL", name: "url", widget: "string"}
-          #       - {label: "Internal link?", name: "internal", widget: "boolean", default: true}
-          #       - {label: "Category", name: "category", widget: "select", options: ["Best practices", "Brand guidelines", "Global elements", "Page components", "Data visualization"]}
-          #   }
+              - {label: "Internal link?", name: "internal", widget: "boolean"}
+      - label: "Secondary navigation"
+        name: "navigation-secondary"
+        file: "_data/navigation-secondary.yml"
+        fields:
+          - label: "Secondary navigation links"
+            name: "secondarynav"
+            widget: "list"
+            fields:
+              - {label: "Text", name: "text", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
+              - {label: "Internal link?", name: "internal", widget: "boolean"}
   - name: "page-component" # Used in routes, e.g., /admin/collections/blog
     label: "Page components" # Used in the UI
     label_singular: "Page component"
