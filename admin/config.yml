@@ -14,11 +14,13 @@ collections:
     editor:
       preview: true
     files:
-      - label: "Navigation"
-        name: "navigation"
-        file: "navigation.yml"
+      - label: "Primary navigation"
+        name: "mainnav"
+        file: "navigation-primary.yml"
         fields:
-          - {label: "Secondary Navigation", name: "secondarynav", widget: "string"}
+          - {label: "Text", name: "text", widget: "string"}
+          - {label: "URL", name: "url", widget: "string"}
+          - {label: "Internal link?", name: "internal", widget: "boolean"}
           # - {
           #     label: "Secondary Navigation",
           #     name: "secondarynav",
