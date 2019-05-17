@@ -1,0 +1,73 @@
+components:
+  - category: Page components
+    internal: true
+    text: 25/75 image and text
+    url: page-components/25-75.html
+  - category: Page components
+    internal: true
+    text: 50/50 image and text
+    url: page-components/50-50.html
+  - category: Page components
+    internal: true
+    text: Buttons
+    url: page-components/buttons.html
+  - category: Page components
+    internal: true
+    text: Contact information
+    url: page-components/contact-information.html
+  - category: Page components
+    internal: true
+    text: Email sign-up
+    url: page-components/email-sign-up.html
+  - category: Page components
+    internal: true
+    text: Expandables
+    url: page-components/expandables.html
+  - category: Page components
+    internal: true
+    text: Featured content modules
+    url: page-components/featured-content-module.html
+  - category: Page components
+    internal: true
+    text: Filterable list control panel
+    url: page-components/filter-control.html
+  - category: Page components
+    internal: true
+    text: Form fields
+    url: page-components/form-fields.html
+  - category: Page components
+    internal: true
+    text: Full width text
+    url: page-components/fullwidth-text.html
+  - category: Page components
+    internal: true
+    text: Link blob - half width
+    url: page-components/half-width-link-blob.html
+  - category: Page components
+    internal: true
+    text: Link blob - third width
+    url: page-components/third-width-link-blob.html
+  - category: Page components
+    internal: true
+    text: Links
+    url: page-components/links.html
+  - category: Page components
+    internal: true
+    text: Modals
+    url: page-components/modals.html
+  - category: Page components
+    internal: true
+    text: Sidebar/prefooter
+    url: page-components/sidebar-prefooter.html
+  - category: Page components
+    internal: true
+    text: Tables
+    url: page-components/tables.html
+  - category: Page components
+    internal: true
+    text: Wells
+    url: page-components/wells.html
+  - category: Page components
+    internal: true
+    text: Sticky note
+    url: page-components/sticky-note.html
