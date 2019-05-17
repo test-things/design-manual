@@ -3,9 +3,6 @@ title: Notifications
 date: 2019-05-17T20:48:07.960Z
 implementation-status: released
 description: >-
-  # Notifications
-
-
   Where possible, display formatting errors immediately using client-side
   validation so the user doesn’t have to wait until submitting to see what went
   wrong (this is especially frustrating if the information the user enters the
