@@ -1,4 +1,13 @@
-components:
+atoms:
+  - category: Page components
+    internal: true
+    text: Links
+    url: page-components/links.html
+  - category: Page components
+    internal: true
+    text: Buttons
+    url: page-components/buttons.html
+molecules:
   - category: Page components
     internal: true
     text: 25/75 image and text
@@ -9,12 +18,8 @@ components:
     url: page-components/50-50.html
   - category: Page components
     internal: true
-    text: Buttons
-    url: page-components/buttons.html
-  - category: Page components
-    internal: true
-    text: Contact information
-    url: page-components/contact-information.html
+    text: Sticky note
+    url: page-components/sticky-note.html
   - category: Page components
     internal: true
     text: Email sign-up
@@ -41,6 +46,19 @@ components:
     url: page-components/fullwidth-text.html
   - category: Page components
     internal: true
+    text: Tables
+    url: page-components/tables.html
+  - category: Page components
+    internal: true
+    text: Wells
+    url: page-components/wells.html
+organisms:
+  - category: Page components
+    internal: true
+    text: Contact information
+    url: page-components/contact-information.html
+  - category: Page components
+    internal: true
     text: Link blob - half width
     url: page-components/half-width-link-blob.html
   - category: Page components
@@ -49,25 +67,9 @@ components:
     url: page-components/third-width-link-blob.html
   - category: Page components
     internal: true
-    text: Links
-    url: page-components/links.html
-  - category: Page components
-    internal: true
     text: Modals
     url: page-components/modals.html
   - category: Page components
     internal: true
     text: Sidebar/prefooter
     url: page-components/sidebar-prefooter.html
-  - category: Page components
-    internal: true
-    text: Tables
-    url: page-components/tables.html
-  - category: Page components
-    internal: true
-    text: Wells
-    url: page-components/wells.html
-  - category: Page components
-    internal: true
-    text: Sticky note
-    url: page-components/sticky-note.html
