@@ -191,3 +191,7 @@ secondarynav:
     internal: true
     text: Sticky note
     url: page-components/sticky-note.html
+  - category: Page components
+    internal: true
+    text: Notifications
+    url: /page-components/notifications
