@@ -41,24 +41,8 @@ collections:
         name: "navigation-components"
         file: "_data/navigation-components.yml"
         fields:
-          - label: "Atoms"
-            name: "atoms"
-            widget: "list"
-            fields:
-              - {name: "category", value: "Page components", widget: "hidden"}
-              - {label: "Text", name: "text", widget: "string"}
-              - {label: "URL", name: "url", widget: "string"}
-              - {label: "Internal link?", name: "internal", widget: "boolean", default: true, required: false}
-          - label: "Molecules"
-            name: "molecules"
-            widget: "list"
-            fields:
-              - {name: "category", value: "Page components", widget: "hidden"}
-              - {label: "Text", name: "text", widget: "string"}
-              - {label: "URL", name: "url", widget: "string"}
-              - {label: "Internal link?", name: "internal", widget: "boolean", default: true, required: false}
-          - label: "Organisms"
-            name: "organisms"
+          - label: "Components secondary navigation links"
+            name: "components"
             widget: "list"
             fields:
               - {name: "category", value: "Page components", widget: "hidden"}
