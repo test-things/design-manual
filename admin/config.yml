@@ -3,6 +3,7 @@ backend:
   repo: cfarm/design-manual
   branch: gh-pages
   site_domain: cfarm.github.io
+  base_url: https://netlifycms-auth.glitch.me
 
 publish_mode: editorial_workflow
 
