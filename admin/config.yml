@@ -59,6 +59,6 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {name: "layout", value: "page", widget: "hidden"}
-      - {name: "category", value: "Page components", widget: "hidden"}
+      - {name: "category", value: "Page components", widget: "categories"}
       - {label: "Implementation status", name: "implementation-status", widget: "select", options: [ { label: "Proposed", value: "proposed" }, { label: "In progress", value: "in-progress" }, {label: "Beta", value: "beta" }, {label: "Released", value: "released" } ] }
       - {label: "Body", name: "body", widget: "markdown", required: false}
