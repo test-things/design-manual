@@ -60,6 +60,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {name: "layout", value: "page", widget: "hidden"}
       - {name: "category", value: "Page components", widget: "hidden"}
-      - {name: "thingy", value: "Thingy", widget: "thingy"}
+      - {name: "thingies", value: "Thingy1,thingy2", widget: "thingy"}
       - {label: "Implementation status", name: "implementation-status", widget: "select", options: [ { label: "Proposed", value: "proposed" }, { label: "In progress", value: "in-progress" }, {label: "Beta", value: "beta" }, {label: "Released", value: "released" } ] }
       - {label: "Body", name: "body", widget: "markdown", required: false}
