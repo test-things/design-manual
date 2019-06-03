@@ -1,14 +1,18 @@
 ---
+title: Buttons
 layout: page
-title:  Buttons
 category: Page components
-redirect_from: "/ui-toolkit/buttons.html"
+date: 2019-06-03T19:44:16.826Z
+implementation-status: proposed
+description: test
+html-snippet: test
+jinja2-snippet: test
 ---
-
-- [Style](#style)
-- [States](#states)
-- [Variations](#variations)
-{: class="toc"}
+*  youtube iEQJrcEZ4Ck
+  [Style](#style)
+* [States](#states)
+* [Variations](#variations)
+  {: class="toc"}
 
 <div class="content-50 content-first">
 
@@ -60,6 +64,7 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 <div class="content-33 content-last">
 
 {::nomarkdown}
+
 <div class="m-btn-group">
     <button class="a-btn">Sign up</button>
 </div>
@@ -67,7 +72,7 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 
 </div>
 
----
+- - -
 
 <div class="content-67 content-first">
 #### Secondary buttons
@@ -83,7 +88,7 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 
 </div>
 
----
+- - -
 
 <div class="content-33 content-first">
 ### Labels
@@ -100,7 +105,7 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 
 </div>
 
----
+- - -
 
 <div class="content-33 content-first">
 ### Icons
@@ -132,7 +137,7 @@ In contrast, <a href="/design-manual/ui-toolkit/links.html">links</a> should lea
 
 </div>
 
----
+- - -
 
 <div class="content-33 content-first">
 
@@ -158,6 +163,7 @@ is functioning as intended.
 </button>
 
 {:/nomarkdown}
+
 </div>
 
 ## States
@@ -166,10 +172,10 @@ is functioning as intended.
 
 <div class="content-33 content-first">
 #### Default
-* Avenir Next Medium, 16px, (#ffffff)
-* Background: Pacific (#0072ce)
-* Top and bottom padding: 10px
-* Left and right padding: 15px
+\* Avenir Next Medium, 16px, (#ffffff)
+\* Background: Pacific (#0072ce)
+\* Top and bottom padding: 10px
+\* Left and right padding: 15px
 * Border radius: 4px
 </div>
 
@@ -181,7 +187,7 @@ is functioning as intended.
 
 </div>
 
----
+- - -
 
 <div class="content-33 content-first">
 #### Hover
@@ -196,12 +202,12 @@ is functioning as intended.
 
 </div>
 
----
+- - -
 
 <div class="content-33 content-first">
 #### Focused
-* Background: Pacific 80 (#4497dc)
-* Outline: Dotted 1px, Pacific (#0072ce)
+\* Background: Pacific 80 (#4497dc)
+\* Outline: Dotted 1px, Pacific (#0072ce)
 * Outline offset: 1px
 </div>
 
@@ -213,7 +219,7 @@ is functioning as intended.
 
 </div>
 
----
+- - -
 
 <div class="content-33 content-first">
 #### Active
@@ -244,7 +250,7 @@ is functioning as intended.
 
 </div>
 
----
+- - -
 
 <div class="content-33 content-first">
 #### Hover
@@ -259,12 +265,12 @@ is functioning as intended.
 
 </div>
 
----
+- - -
 
 <div class="content-33 content-first">
 #### Focused
-* Background: Gray 80 (#75787b)
-* Outline: Dotted 1px, Gray (#5a5d61)
+\* Background: Gray 80 (#75787b)
+\* Outline: Dotted 1px, Gray (#5a5d61)
 * Outline offset: 1px
 </div>
 
@@ -276,7 +282,7 @@ is functioning as intended.
 
 </div>
 
----
+- - -
 
 <div class="content-33 content-first">
 #### Active
@@ -307,7 +313,7 @@ is functioning as intended.
 
 </div>
 
----
+- - -
 
 <div class="content-33 content-first">
 #### Hover
@@ -322,12 +328,12 @@ is functioning as intended.
 
 </div>
 
----
+- - -
 
 <div class="content-33 content-first">
 #### Focused
-* Background: Red 80 (#dd735d)
-* Outline: Dotted 1px, Red (#d14124)
+\* Background: Red 80 (#dd735d)
+\* Outline: Dotted 1px, Red (#d14124)
 * Outline offset: 1px
 </div>
 
@@ -339,7 +345,7 @@ is functioning as intended.
 
 </div>
 
----
+- - -
 
 <div class="content-33 content-first">
 #### Active
@@ -360,8 +366,8 @@ is functioning as intended.
 
 <div class="content-33 content-first">
 #### Default/Hover/Active
-* Avenir Next Medium, 16px, Gray (#5a5d61)
-* Background: Gray 20 (#d2d3d5)
+\* Avenir Next Medium, 16px, Gray (#5a5d61)
+\* Background: Gray 20 (#d2d3d5)
 * Cursor set to <code>not-allowed</code>
 </div>
 
@@ -375,8 +381,8 @@ is functioning as intended.
 
 <div class="content-33 content-first">
 #### Focused
-* Outline: Dotted 1px, Gray 20 (#d2d3d5)
-* Outline offset: 1px
+\* Outline: Dotted 1px, Gray 20 (#d2d3d5)
+\* Outline offset: 1px
 </div>
 
 <div class="content-67 content-last">
@@ -392,8 +398,8 @@ is functioning as intended.
 <div class="content-33 content-first">
 #### Large primary button
 <p>At the designer’s discretion, use the larger primary button on consumer-facing products for an important call to action.</p>
-* Avenir Next Medium, 18px, White (#ffffff)
-* Top and bottom padding: 15px
+\* Avenir Next Medium, 18px, White (#ffffff)
+\* Top and bottom padding: 15px
 * Left and right padding: 30px
 </div>
 
@@ -405,7 +411,7 @@ is functioning as intended.
 
 </div>
 
----
+- - -
 
 <div class="content-33 content-first">
 #### Button group
@@ -414,6 +420,7 @@ is functioning as intended.
 <div class="content-67 content-last">
 
 {::nomarkdown}
+
 <div class="m-btn-group">
     <button class="a-btn">Button 1</button>
     <button class="a-btn">Button 2</button>
@@ -423,7 +430,7 @@ is functioning as intended.
 
 </div>
 
----
+- - -
 
 <div class="content-33 content-first">
 #### Compound action
@@ -433,6 +440,7 @@ is functioning as intended.
 <div class="content-67 content-last">
 
 {::nomarkdown}
+
 <div class="m-btn-group m-btn-group__combined">
     <button class="a-btn">Button</button>
     <button class="a-btn">{% include icons/down.svg %}</button>
@@ -441,7 +449,7 @@ is functioning as intended.
 
 </div>
 
----
+- - -
 
 <div class="content-33 content-first">
 #### Destructive action
@@ -452,6 +460,7 @@ is functioning as intended.
 <div class="content-67 content-last">
 
 {::nomarkdown}
+
 <div class="m-btn-group">
     <button class="a-btn">Action</button>
     <button class="a-btn a-btn__link a-btn__warning">Destructive action</button>
