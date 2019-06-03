@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: cfarm/design-manual
+  repo: test-things/design-manual
   branch: gh-pages
-  site_domain: cfarm.github.io
+  site_domain: test-things.github.io
   base_url: https://netlify-cms-auth.demo.cfpb.gov
 
 publish_mode: editorial_workflow
